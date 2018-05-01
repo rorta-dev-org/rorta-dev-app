@@ -47,6 +47,7 @@ pipeline {
     stage('Say Kernel') {
       steps {
         echo "${KERNEL_VERSION}"
+        echo "Have a nice day! "
       }
     }
   }
