@@ -23,4 +23,11 @@ pipeline {
   environment {
     MY_BNAME = 'REO'
   }
+  post {
+    aborted {
+      echo 'Why didn\'t you push my button?'
+      
+    }
+    
+  }
 }
